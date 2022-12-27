@@ -27,7 +27,38 @@
 .App-link {
   color: #61dafb;
 }
-
+.header{
+  background: rgba(63, 63, 63, 0.404);
+}
+.bgHinhAnh{
+  background-color: #6fa2b186;
+  /* background: url(../public/img/background.jpg); */
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.products .row img {
+  width: 55%;
+}
+.btnProducts img{
+  width: 25%;
+}
+.btnProducts .btn{
+  width: 25%;
+}
+.container .products .row .col-6 .hinhAnhUI{
+  position: absolute;
+  left: 182px;
+  top: 70px;
+  width: 30%;
+}
+.container .products .row .col-6 .textHienThi{
+  position: absolute;
+  left: 125px;
+  bottom: 0px;
+  width: 52%;
+  background: #fab27f75;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
